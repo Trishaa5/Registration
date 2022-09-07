@@ -51,3 +51,7 @@ a{
 a:hover{
   color: black;
 }
+.input{
+  height: 20px;
+  width: 250px;
+}
