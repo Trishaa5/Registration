@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div>
+      <form action="mailto:trishaaa.b9903@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label>
+      <br />
+      <input type="text" name="YourName" value=""><br /><br />
+      <label for="">Username:</label>
+      <br />
+      <input type="text" name="" value="" pattern="[A-Za-z0-9\-_\.]{6,10}">
+      <br /><br />
+      <label for="">Registration Number:</label>
+      <br />
+      <input type="text" name="" value="" pattern="^[1-2][0-9][a-zA-Z]{3}[0-9]{4}$">
+      <br /><br />
+      <label>Email:</label>
+      <br />
+      <input type="email" name="" value="">
+      <br /><br />
+      <label>Mobile Number:</label>
+      <br />
+      <input pattern="^[1-9][0-9]{9}">
+      <br /><br />
+      <label>Create Password:</label>
+      <br />
+      <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$*_]).{8,12}"/>
+      <br /><br />
+      <input class="btn" type="submit" />
+    </form>
+      <!-- *At least 1 Uppercase
+At least 1 Lowercase
+At least 1 Number
+At least 1 Symbol, symbol allowed !@#$&*_
+Min 8 chars and Max 12 chars -->
+<br /><br />
+<p> Already Registered?
+<a href="login.html">Log in.</a></p>
+    </div>
+  </body>
+</html>
